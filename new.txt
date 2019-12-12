@@ -6,3 +6,5 @@ with open(r'/home/debjyoti/Desktop/dict.txt','r+') as fil:
         fil2 = open(r'/home/debjyoti/Desktop/dict (copy).txt','a')
         fil2.write(newName)
     fil2.close()
+
+Print("Rakesh")
