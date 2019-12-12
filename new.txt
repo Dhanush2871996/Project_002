@@ -1,0 +1,8 @@
+with open(r'/home/debjyoti/Desktop/dict.txt','r+') as fil:
+    for _ in range(4240):
+        nm = fil.readline()
+        newName = '{}\t{}\ten-GB\n'.format(nm[:-1], nm[:-1])
+        print(newName)
+        fil2 = open(r'/home/debjyoti/Desktop/dict (copy).txt','a')
+        fil2.write(newName)
+    fil2.close()
